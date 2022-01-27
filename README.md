@@ -17,16 +17,16 @@ Here's what you'll need:
     ```python
     SESSION_ID = env['TMDB_SESSION_ID']
     ```
-to either this:
-```python
-SESSION_ID = None
-```
-or this:
-```python
-SESSION_ID = ''
-```
+    to either this:
+    ```python
+    SESSION_ID = None
+    ```
+    or this:
+    ```python
+    SESSION_ID = ''
+    ```
 
-Doing so will activate the authentication sequence, which will redirect you to TMDb's page with a request token, and will generate a session ID for you.
+    Doing so will activate the authentication sequence, which will redirect you to TMDb's page with a request token, and will generate a session ID for you.
 
 ---
 How it works:
