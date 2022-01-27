@@ -198,8 +198,6 @@ movies, colors = sort_movies()
 # %%
 # Visualize Color Palette
 rgb_colors = [colorsys.hls_to_rgb(h/360,l/100,s/100) for l,h,s in colors]
-# rounder = 2
-# rgb_colors = [(round(r,rounder), round(g,rounder), round(b,rounder)) for r,g,b in rgb_colors]
 rgb_colors.sort()
 fig, ax = plt.subplots(figsize=(10,1))
 cmap = mpl.colors.ListedColormap(rgb_colors, name='my_colormap')
