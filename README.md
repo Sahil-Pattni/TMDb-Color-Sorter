@@ -14,9 +14,9 @@ Here's what you'll need:
     - You'll need the ID for this list, which is the final integer in the list's URL.
 - A Session ID
     - This script assumes that the user (that's mainly been me) has already generated a working session ID). If you haven't, simply change the line:
-```python
-SESSION_ID = env['TMDB_SESSION_ID']
-```
+    ```python
+    SESSION_ID = env['TMDB_SESSION_ID']
+    ```
 to either this:
 ```python
 SESSION_ID = None
