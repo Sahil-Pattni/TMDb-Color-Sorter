@@ -4,8 +4,8 @@ Do you ever wish you could sync your Plex movie library with a list on TMDb so t
 
 Do you ever wish that aformentioned TMDb list was color sorted to look aesthetically pleasing?
 
-Well look no further! This script allows you to do just that!
----
+Well look no further! This program allows you to do just that! ([Check out my sorted list](https://www.themoviedb.org/list/8175693))
+
 Here's what you'll need:
 - A Plex Token from your Plex library [Find out how to get one here](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/).
 - A Plex movie library.
